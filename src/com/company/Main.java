@@ -9,13 +9,13 @@ public class Main {
         String [] students = { "Donald", "Evgeney", "Charlie", "Khalid"};
         String [] grades = { "B", "B", "A", "C"};
         String search = input("who's grade do you want to know? Enter the name: ");
-        int index = 0;
+     
         for (int i=0; i < students.length; i++)
         {
             if (students[i].equals(search))
             {
-                index=i;
-                System.out.println(grades[i]);
+              
+               System.out.println(grades[i]);
             }
         }
 
